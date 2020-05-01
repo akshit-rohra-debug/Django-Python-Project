@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <style>
+        .button
+        {
+            font-family: Lato;
+            border: 2px solid #24c4a2;
+            width: 210px;
+            border-radius: 12px;
+            padding: 15px 28px;
+            color: white;
+            background-color: #1e2a3a;
+            text-align: center;
+        }
+        .button:hover
+        {
+         background-color: #24c4a2;
+         color: #1e2a3a;
+        }
+
+        #maindiv
+        {
+         width: 100%;
+         background-color: #1e2a3a;
+        }
+        form
+        {
+         align:"center";
+        }
+        #subdiv1
+        {
+            background-color: #24c4a2;
+            height: 10px;
+            margin-top: 10px;
+        }
+        #subdiv2
+        {
+            background-color: #24c4a2;
+            height: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="subdiv1">
+</div>
+<div id="maindiv">
+<table align="center" cellspacing="100%">
+    <tr>
+        <td> <input id="product_review" type="button" class="button" onclick="location.href='amazon/'" value="PRODUCT REVIEW" />
+        <td> <input id="movie_review" type="button" class="button" onclick="location.href='imdb/'" value="MOVIE REVIEW"/>
+        <td> <input id="restaurant_review" type="button" class="button" onclick="location.href='yelp/'" value="RESTAURANT REVIEW"/>
+    </tr>
+</table>
+</div>
+<div id="subdiv2">
+
+</div>
+</body>
+</html>

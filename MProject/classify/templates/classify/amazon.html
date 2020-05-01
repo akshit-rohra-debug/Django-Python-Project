@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon</title>
+</head>
+<style>
+    body
+    {
+        font-family: Lato;
+        background-color: #24c4a2;
+    }
+    .button
+    {
+     font-family: Lato;
+     border: 2px solid #24c4a2;
+     width: 210px;
+     border-radius: 12px;
+     padding: 15px 28px;
+     color: white;
+     background-color: #1e2a3a;
+     text-align: center;
+    }
+    .button:hover
+    {
+     background-color: #24c4a2;
+     color: #1e2a3a;
+    }
+
+    #maindiv
+    {
+     width: 100%;
+     background-color: #1e2a3a;
+     margin: 0px;
+    }
+    #subdiv1
+    {
+        background-color: #24c4a2;
+        height: 10px;
+        margin-top: 10px;
+    }
+    #subdiv2
+    {
+        background-color: #24c4a2;
+        height: 10px;
+    }
+    .subdiv3
+    {
+        background-color: #24c4a2;
+        margin: 0px;
+        height: 60px;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 32px;
+        color: #1e2a3a;
+    }
+    #confusion_m
+    {
+        font-size: 20px;
+        font-family: Lato;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        color: #1e2a3a;
+        border: 1px solid #1e2a3a;
+    }
+    #confusion_m th
+    {
+        font-size: 15px;
+        background-color: #1e2a3a;
+        color: #ffffff;
+        padding: 5px;
+    }
+    #confusion_m td
+    {
+        border: 1px solid #1e2a3a;
+        text-align: center;
+        padding: 5px;
+    }
+    form
+    {
+        background-color: #24c4a2;
+    }
+    #comment
+    {
+        align:center;
+        width=100%;
+        padding: 25px;
+    }
+    #comment_text
+    {
+        width=100%;
+    }
+    .container
+    {
+        background-color: #24c4a2;
+        width: 100%;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+    }
+    #right
+    {
+        font-size: 20px;
+    }
+    #button1
+    {
+       border:none;
+       background-color: #1e2a3a;
+       color: white;
+       width:150px;
+       padding: 16px 32px;
+       border-radius: 10px;
+       font-size: 14px;
+       font-weight:bold;
+    }
+    #button_container
+    {
+        padding:40px;
+        display:flex;
+        justify-content: center;
+    }
+    #button1:hover
+    {
+        border: 2px solid #1e2a3a;
+        background-color: #24c4a2;
+        color: #1e2a3a;
+        font-size:14px;
+    }
+    #end
+    {
+        background-color: #24c4a2;
+        height: 300px;
+    }
+    hr
+    {
+        color: #1e2a3a;
+    }
+    #subdiv4
+    {
+
+        background-color: #24c4a2;
+        margin: 0px;
+        color: #1e2a3a;
+        height: 60px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    #line
+    {
+        height: 1px;
+        width: 40%;
+        margin-top:8px;
+        background-color: #1e2a3a;
+
+    }
+</style>
+<body >
+<div id="maindiv">
+    <table align="center" cellspacing="60%">
+        <tr>
+            <td> <input id="product_review" type="button" class="button" onclick="location.href='/amazon'" value="PRODUCT REVIEW" />
+            <td> <input id="movie_review" type="button" class="button" onclick="location.href='/imdb/'" value="MOVIE REVIEW"/>
+            <td> <input id="restaurant_review" type="button" class="button" onclick="location.href='/yelp/'" value="RESTAURANT REVIEW"/>
+        </tr>
+    </table>
+</div>
+<div id="subdiv2"></div>
+<div id="subdiv4">Product Review</div>
+<div class="container">
+    <div id="line"></div>
+</div>
+<div id="accuracy" class="subdiv3">Accuracy: {{accuracy }} %</div>
+<div class="subdiv3">Confusion Matrix</div>
+    <table id="confusion_m" cellspacing="" >
+        <tr>
+            <th>&nbsp;</th>
+            <th>Predicted Negative</th>
+            <th>Predicted Positive</th>
+        </tr>
+        <tr>
+            <th>Actual Negative</th>
+            <td id="TN">TN: {{w}}</td>
+            <td id="FP">FP: {{x}}</td>
+        </tr>
+        <tr>
+            <th>Actual Positive</th>
+            <td id="FN">FN: {{y}}</td>
+            <td id="TP">TP: {{z}}</td>
+        </tr>
+    </table>
+<br><br>
+<form method="POST" >
+    {% csrf_token %}
+    <div class="container">
+        <div id="right">
+            <input size="70" type="text" name="comment" placeholder="Enter Review">
+        </div>
+    </div>
+    <div id="button_container">
+        <button id="button1" type="submit" value="Predict" >CLASSIFY</button>
+    </div>
+</form>
+<div id="end"></div>
+</body>
+</html>

@@ -1,0 +1,1062 @@
+{
+  "id": "868a49d4-a10c-4f15-a304-5e13369305cb",
+  "version": "1.1",
+  "name": "MProject",
+  "url": "http://localhost:8000",
+  "tests": [{
+    "id": "d34bc09c-a170-40b5-b94d-1236613eb672",
+    "name": "Product_Review",
+    "commands": [{
+      "id": "af03496e-c41d-44d5-935e-a490dc83512f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "003966d8-84f2-4f69-bca6-f542eebbea34",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x709",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37111444-6f95-4af4-90d7-5a6a24d4da47",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.button",
+      "targets": [
+        ["css=input.button", "css"],
+        ["css=td:nth-child(1) > .button", "css:finder"],
+        ["xpath=//input[@value='PRODUCT REVIEW']", "xpath:attributes"],
+        ["xpath=//div[@id='maindiv']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc2d7526-4303-4dd1-818e-61ebabe4a483",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce70defe-b6e7-48bf-a722-ba7d19c7c281",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "The headphones are good"
+    }, {
+      "id": "c4fa42db-b95c-45f9-a1dc-4b7b5df0c227",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb4cbe5b-4555-4223-a217-6d2988552c48",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af1e7412-33aa-4899-93cc-89321f916cc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.button",
+      "targets": [
+        ["css=input.button", "css"],
+        ["css=td:nth-child(1) > .button", "css:finder"],
+        ["xpath=//input[@value='PRODUCT REVIEW']", "xpath:attributes"],
+        ["xpath=//div[@id='maindiv']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16ed3218-428e-4a4e-9b04-eb10ee59cd7e",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "033d7a72-1840-4351-a8cc-8b4f5d4bde17",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "The headphones are okay"
+    }, {
+      "id": "c463b86c-07e9-4a64-9a86-0f14c2e06358",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb4b799b-ce1b-4a1f-9fbe-f64700bc6453",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27f0723c-0720-45a4-b3e1-06cb7fe87af4",
+      "comment": "",
+      "command": "click",
+      "target": "css=input.button",
+      "targets": [
+        ["css=input.button", "css"],
+        ["css=td:nth-child(1) > .button", "css:finder"],
+        ["xpath=//input[@value='PRODUCT REVIEW']", "xpath:attributes"],
+        ["xpath=//div[@id='maindiv']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16056d10-623c-4a05-a36c-bce11237d071",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f492b0c5-3d95-4425-a2e7-a61c15778ae7",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "The "
+    }, {
+      "id": "511d75ce-5a36-4964-b291-de632bef7977",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "b8e436f5-ee4b-420d-a88a-fdb35313d917",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "The headphones are bad"
+    }, {
+      "id": "60ce7cb6-e436-4545-8e91-cf82ffc8c2f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fe45f73-d9f2-4e10-84f8-dd5daa2ecc32",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4a048b58-7d73-460d-a414-ffc0a219c1d4",
+    "name": "Movie_Review",
+    "commands": [{
+      "id": "aebe6163-389c-47de-ac9e-3ac302d81d27",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9624c3d-b473-4b8b-bf38-ecdfb4e9ece6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x709",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac0326e3-3f43-456c-abe3-a374605743ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) > .button",
+      "targets": [
+        ["css=td:nth-child(2) > .button", "css:finder"],
+        ["xpath=//input[@value='MOVIE REVIEW']", "xpath:attributes"],
+        ["xpath=//div[@id='maindiv']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca4a960b-e2f9-4f70-ac29-e07f90d2c1ff",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2103ed87-d064-4a87-8269-6465a6795b56",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8753c04-026d-44a6-b2d2-ba3eb742c9c5",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Interstellar is an awesome movie"
+    }, {
+      "id": "e5d7ac62-745e-4b81-b022-bbf15cab197a",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85044d4b-d196-445c-b927-58931b35e560",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "406045c0-0ea5-41e3-8372-051f8ddeda72",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) > .button",
+      "targets": [
+        ["css=td:nth-child(2) > .button", "css:finder"],
+        ["xpath=//input[@value='MOVIE REVIEW']", "xpath:attributes"],
+        ["xpath=//div[@id='maindiv']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ebe8200-65d6-42be-aac5-f372bebf03a6",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a557371-a715-4dd6-98c6-95e9d2403ba2",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "I"
+    }, {
+      "id": "1bb049b1-8962-4a57-92cb-eb235c9dc21d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "6dfd4c56-0817-4a4e-8205-de710a269ed2",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Interstellar is an awesome movie"
+    }, {
+      "id": "2590cbf7-565d-4958-b11e-d0c5c7fc1957",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "92384e4c-21cc-42a5-8dee-476b88057f18",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_UP}"
+    }, {
+      "id": "fd758664-e141-4fb8-9430-593e09e5f7c9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_UP}"
+    }, {
+      "id": "ee7f0986-dcb3-43b7-b5b8-898ffd3f97d6",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Interstellar is an awful movie"
+    }, {
+      "id": "4d19df36-a234-4622-839f-2b2f4187769b",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c956ffac-e524-4bce-9813-c76066f8ae3a",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c7b434d-5179-4b6f-bfae-dbbddfb62c1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) > .button",
+      "targets": [
+        ["css=td:nth-child(2) > .button", "css:finder"],
+        ["xpath=//input[@value='MOVIE REVIEW']", "xpath:attributes"],
+        ["xpath=//div[@id='maindiv']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca4344cd-7ebe-4a18-b74c-5fb8c905fc14",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93e10157-8ec7-49aa-84a5-e8e02754e6ee",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8351e126-ceb8-4411-b9c8-159c9bf3faf9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "556c182e-a6d0-4709-b301-47b191e98134",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "354f87c2-d3a4-46df-a095-37bf62bfcd92",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fd522b7-d80a-4cfc-999d-6f28b888a478",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Interstellar is a fine movie"
+    }, {
+      "id": "1518e73e-3f12-4a6d-b76f-b49440d4f037",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1335445e-d075-4a96-8713-8d36a13c61d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "500be5ab-9da5-4b2f-8b01-b909e591b185",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) > .button",
+      "targets": [
+        ["css=td:nth-child(2) > .button", "css:finder"],
+        ["xpath=//input[@value='MOVIE REVIEW']", "xpath:attributes"],
+        ["xpath=//div[@id='maindiv']/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af65fdd4-7014-4623-8c2b-60d6c75427df",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cad44369-6a73-44f2-a508-e76aa6717aa0",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6596a778-0b58-4dea-9533-86f0afb0e903",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4e244a0-3fb5-4913-8b0b-a17d422e5902",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb4ef4a3-9ec8-411e-bc7a-cd6aecad47d4",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Interstellar is an okay movie"
+    }, {
+      "id": "c2cfe504-d4ad-4947-af67-d6948c1adba4",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2a4beab-8923-43f1-a891-39af9804dea0",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f609405b-7699-481c-b345-330149e1bf8f",
+    "name": "Restaurant_Review",
+    "commands": [{
+      "id": "8cd9a76d-b51e-406b-b398-757e39d8ce03",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30499468-f090-4803-8942-6bedc3ab711b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x709",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e21eebc-cfcd-4d1a-bd2f-eb0f58c89725",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(3) > .button",
+      "targets": [
+        ["css=td:nth-child(3) > .button", "css:finder"],
+        ["xpath=//input[@value='RESTAURANT REVIEW']", "xpath:attributes"],
+        ["xpath=//div[@id='maindiv']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6733545-1bf3-4d7c-8039-cbc86616029d",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf4a30be-aa6b-4362-af4b-db38190be876",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dcf90b5-defd-41c6-a832-f6ce14ae6213",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Cafe Goodluck is a cool restaurant"
+    }, {
+      "id": "f05eef80-5fb1-4534-9bcf-119959ca80e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03cace72-a5cb-4681-837c-75ee871190e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d757c5b-ce73-407d-8558-e0f7261be852",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(3) > .button",
+      "targets": [
+        ["css=td:nth-child(3) > .button", "css:finder"],
+        ["xpath=//input[@value='RESTAURANT REVIEW']", "xpath:attributes"],
+        ["xpath=//div[@id='maindiv']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5902b612-8ccb-44b5-88b6-691c4cb7ff56",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5887eff8-9006-456b-a819-c6faa7c737dd",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5edcc936-644e-4374-86ee-8ed517af6ab5",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "C"
+    }, {
+      "id": "9da5433e-7c7e-4536-a92d-0b9db7888ed6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "6181bbad-e755-44bb-b0cc-320ac014ac49",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f34f5680-a436-4ec4-b896-02a4c2ddb9de",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Cafe Goodluck is a bad restaurant"
+    }, {
+      "id": "5dcfb2df-6e10-4e49-98f6-964ca2d9da5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2df4a09-da9c-4e20-a430-376eb75bd1e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83f5f0c6-a8bd-4258-bf24-359f88e05aad",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(3) > .button",
+      "targets": [
+        ["css=td:nth-child(3) > .button", "css:finder"],
+        ["xpath=//input[@value='RESTAURANT REVIEW']", "xpath:attributes"],
+        ["xpath=//div[@id='maindiv']/table/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a88189e7-3d86-4f71-9437-ae3bf98db3b5",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc66016e-6da7-4518-b1e6-55aaa83292dc",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e68d060-f295-4e56-9841-f45945fdc48c",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=input[name=\"comment\"]", "css"],
+        ["css=#right > input", "css:finder"],
+        ["xpath=//input[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='right']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "The food at Cafe Goodluck is okay"
+    }, {
+      "id": "ed5b9e56-8da8-4b3a-9a34-cfddeb38457f",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1123199e-994a-4cb5-b4fb-afca8223255c",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["css=#button1", "css"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//button[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='button_container']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "38e5f410-6e08-4ad9-8184-25f1b3ad6a10",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d34bc09c-a170-40b5-b94d-1236613eb672"]
+  }],
+  "urls": ["http://localhost:8000/"],
+  "plugins": []
+}
